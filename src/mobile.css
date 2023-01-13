@@ -1,0 +1,98 @@
+
+/*Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .app {
+        margin-top: 7rem;
+        width: 100%;
+        margin:7rem auto;
+    }
+    .filter-container {
+        position: absolute;
+        background: #ffffff7d;
+        left: 0;
+        right: 0;
+        z-index: 9;
+        margin: auto;
+        border-radius: 30px;
+        box-shadow: 0px 20px 20px -10px #00000029;
+        width: 100%;
+        backdrop-filter: blur(26px);
+        top: 10rem;
+    }
+    .category-div {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        justify-content: space-between;
+        overflow-x: scroll;
+        margin: 4rem auto;
+        gap: 1rem;
+        align-items: center;
+    }
+    .market-items-holder-inner-div {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        gap: 1% 4%;
+        justify-items: center;
+        width: 100%;
+        align-items: start;
+    }
+    img.c-s-img {
+        width: 40%;
+        border-radius: 0.3rem;
+        height: 20vh;
+        object-fit: cover;
+    }
+    .c-s-text {
+        width: 30%;
+        background: #8f8f8f61;
+        padding: 0.6rem;
+        color: white;
+        border-radius: 0.5rem;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 2px solid white;
+    }
+    section.more-details {
+        width: 100%;
+    }
+    section.image-side {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .single-product {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        gap: 10%;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .add-to-cart-contact {
+        position: fixed;
+        bottom: 4rem;
+        left: 0rem;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .staying-fixed {
+        position: relative;
+        bottom: 40%;
+        width: 100%;
+        margin: 4rem 0rem;
+    }
+    .auth-image-side {
+        width: 100%;
+        margin: auto;
+        min-height: 108vh;
+        position: relative;
+        margin-top: -2rem;
+    }
+}
