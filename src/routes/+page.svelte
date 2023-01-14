@@ -4,7 +4,7 @@
 
 	import { Hero, SearchBar } from "../components/CompIndex";
 
-
+    import { fly } from "svelte/transition";
 
 	export let data;
     //console.log(data)
@@ -29,7 +29,7 @@
     
 
 </script>
-<div class="" >
+<div class="" transition:fly="{{delay:100, y:0, duration:200, x:100}}">
     <div class="search_text">{search_query}</div>
     <SearchBar bind:search_query on:searching={toggleHero} {filter}/>
 

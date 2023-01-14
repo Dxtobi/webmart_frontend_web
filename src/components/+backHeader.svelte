@@ -1,7 +1,7 @@
 
 <script>
     import Icon from 'svelte-icons-pack/Icon.svelte';
-  import AiOutlineNodeExpand from 'svelte-icons-pack/ai/AiOutlineNodeExpand';
+    import BiArrowBack from "svelte-icons-pack/bi/BiArrowBack";
 
     const goBack = () =>{
         history.back()
@@ -11,6 +11,6 @@
 
 <div class="s-product-name">
     <button on:click={goBack} class="go-back-btn">
-        <Icon src={BiFilter} color="white" size="24" title="Filter products" />
+        <Icon src={BiArrowBack} color="black" size="24" title="go back" />
     </button>
 </div>

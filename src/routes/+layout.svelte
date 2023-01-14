@@ -3,6 +3,8 @@ import '../app.css';
 import '../mobile.css';
 import Icon from 'svelte-icons-pack/Icon.svelte';
 import CgProfile from "svelte-icons-pack/cg/CgProfile";
+
+import ImCart from "svelte-icons-pack/im/ImCart";
 </script>
 
 <div class="header">
@@ -18,12 +20,12 @@ import CgProfile from "svelte-icons-pack/cg/CgProfile";
             <div class="header-right-items">
                 <a href="/cart">
                     <div class="header-chart">
-                        chart
+                        <Icon src={ImCart} color="#cf4952" size="20" title="Custom icon params" />
                     </div>  
                 </a>
                 <a href="/profile">
                     <div class="header-brand">
-                        <Icon src={CgProfile} color="red" size="24" title="Custom icon params" />
+                        <Icon src={CgProfile} color="#cf4952" size="30" title="Custom icon params" />
                     </div>
                 </a>
             </div>

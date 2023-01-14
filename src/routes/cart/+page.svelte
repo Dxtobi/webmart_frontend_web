@@ -1,11 +1,12 @@
 
 <script>
 	import Cartitem from "../../components/+cartitem.svelte";
+    import { fly } from "svelte/transition";
 
     let c = [1, 2, 3, 4]
 </script>
 
-<div >
+<div transition:fly="{{delay:100, y:100, duration:200, x:0}}">
     <div class="s-product-name"><button class="go-back-btn" on:click={()=>history.back()}>Back</button><div>Cart</div></div>
    <div class="single-product">
     <section class="image-side">

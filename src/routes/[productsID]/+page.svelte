@@ -3,10 +3,11 @@
 	import {BackBtn, Button} from "../../components/CompIndex";
 
    
-
+    import { fly } from "svelte/transition";
 </script>
 
-<div>
+
+<div transition:fly="{{delay:100, y:10, duration:200, x:0}}">
     <div class="single-product">
         <section class="image-side">
             <BackBtn/>
