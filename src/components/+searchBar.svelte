@@ -5,7 +5,7 @@
     import BiFilter from 'svelte-icons-pack/bi/BiFilter';
 	import { createEventDispatcher } from 'svelte';
     
-	import Filter from './+Filter.svelte';
+	import Filter from './+filter.svelte';
     const dispatch = createEventDispatcher()
     export let search_query
     export let filter
