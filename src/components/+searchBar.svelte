@@ -32,7 +32,9 @@
          />
         <button class="search-icon"><Icon src={BiSearch} color="red" size="24" title="search" /></button>
     </div>
-    <button on:click={closeFilter} class="filter-icon"><Icon src={BiFilter} color="white" size="24" title="Filter products" /></button>
+    <button on:click={closeFilter} class="filter-icon">
+        <Icon src={BiFilter} color="white" size="24" title="Filter products" />
+    </button>
 </div>
 
 {#if boolFilter}
